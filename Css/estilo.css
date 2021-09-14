@@ -1,0 +1,12 @@
+body {background-color: #F9E79F;
+  font-family: sans-serif;}
+.Por {color: green;
+  font-size: 65%;}
+#TituloPrincipal {color: brown;
+text-align: center;
+text-decoration: underline;}
+.Chiquito {font-size: 75%;}
+.Intro {text-align: center;}
+.Titulo {text-decoration: underline;}
+.ImagenMediana {width: 400px; height: 350px;}
+.ImagenGrande {width: 700px; height: 350px;}
