@@ -1,15 +1,22 @@
 body  {background-color: #FEF29A;
       font-family: sans-serif;
-      font-size: 150%;}
+      font-size: 150%;
+       margin: 30px;}
+
+header {background-color: #C620FF6E;
+        color: white;}
 
 .Por {font-size: 65%;}
-
-.Header {color: white}
 
 #TituloPrincipal {text-align: center;
 text-decoration: none;}
 
-.Titulo {text-decoration: underline;}
+nav {background-color: white;
+    text-decoration-color: black;
+    padding: 20px;}
+
+section {width: 70%;
+display: inline;}
 
 .ImagenGrande {width: 600px;
                height: 350px;
@@ -18,49 +25,94 @@ text-decoration: none;}
                margin-top: 20px;
                clear: right;}
 
+.contenedor2 {background-color: #FEF29A;
+              width: 100%;
+              height: 300px;
+              margin-top: 50px;}
+
+.mapa {float: left;
+       width: 30%;
+       margin: 5px;
+       display: inline;}
+
+
+.Intro {color: black;
+        font-size: 90%;
+        width: 60%;
+        float: right;
+        display: inline;}
+
+
+.Musica {font-size: 60%;
+         background: #F8EF78;
+         color: black;
+         position: relative;
+         display: inline-block;}
+
+
+.marcha {font-size: 75%;}
+
+.Titulo {text-decoration: underline;
+         clear: both;}
+
+.contenedor1 {background-color: #FEF29A;
+              width: 100%;
+              height: 450px;}
+
+
+.ingredientes {background-color: #f6adc6;
+                    width: 48%;
+                    height: 100%;
+                    display: inline;
+                    float: left;
+                    font-size: 80%;
+                    margin: 10px;}
+
+
+.preparacion {background-color: #f6adc6;
+               width: 48%;
+               height: 100%;
+               font-size: 80%;
+             display: inline;
+             float: right;
+             margin: 10px;}
+
+
+.contenedor {background-color: #FEF29A;
+             width: 100%;
+             height: 700px;;
+             font-size: 80%;
+             }
+
+.paches2 {text-align: }
+
+.preparacionpaches {background-color: #f6adc6;
+                    width: 48%;
+                    height: 93%;
+                    display: inline;
+                    float: left;
+                    margin: 10px;}
+
+.consejos {background-color: #f6adc6;
+          width: 48%;
+          height: 30%;
+          display: inline;
+          float: right;
+           margin: 10px;}
+
+.Video {background-color: #f6adc6;
+        width: 48%;
+        height: 60%;
+        display: inline;
+        float: right;
+        margin: 10px;}
+
 .ImagenMediana {width: 400px; height: 350px;}
 
 .iconowpp {position: fixed;
            width: 50px; height: 50px;
            top: 85%; right: 1%;}
 
-.Setenta {width: 70%;}
-
-.Marcha {font-size: 75%;}
-
-
-
-header {background-color: #C620FF6E;}
-
-.navegador {background-color: white;
-           text-decoration-color: black;
-           padding: 20px;}
-
-.TextoChico {float: left;
-             background-color: #C620FF6E;
-             color: black;}
-
-.Intro {float: none;
-        color: black; font-size: 90%;
-        padding: 40px;
-        position: relative;
-        left: 200px;}
-
-.mapa {position: absolute;
-       margin-top: 50px; margin-left: 30px;
-       padding: 40;}
-
-.audio {display: block;}
-
-.Titulo {clear: both;}
-
-.Musica {font-size: 60%;
-         background: #F8EF78;
-         color: black;
-        float: none;
-        padding: 1%;
-        width: 600px;
-      right: 100px;}
 
 aside {background-color: pink;
        display: inline-block;
@@ -70,6 +122,7 @@ aside {background-color: pink;
        margin-right: 5px; margin-top: 90px;
        font-size: 80%;}
 
-footer {float: inherit;}
+
+footer {float: inherit; clear: inherit;}
        .iconoig {width: 45px;}
        .iconotw {width: 45px;}
