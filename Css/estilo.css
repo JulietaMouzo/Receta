@@ -13,7 +13,12 @@ text-decoration: none;}
 
 nav {background-color: white;
     text-decoration-color: black;
-    padding: 20px;}
+    padding: 20px;
+    text-align: center;}
+
+.contacto:hover {background-color: pink;
+                font-size: 40px;
+                font-family: fantasy;}
 
 section {width: 70%;
 display: inline;}
@@ -119,10 +124,20 @@ aside {background-color: pink;
        width: 15%;
        float: right;
        padding: 50px;
-       margin-right: 5px; margin-top: 90px;
+       margin-right: 5px; margin-top: 145px;
        font-size: 80%;}
 
 
 footer {float: inherit; clear: inherit;}
        .iconoig {width: 45px;}
        .iconotw {width: 45px;}
+
+
+.iconowpp:hover {width: 100px;
+                 height: 100px;}
+
+.iconoig:hover {width: 100px;
+                height: 100px;}
+
+.iconotw:hover {width: 100px;
+                height: 100px;}
