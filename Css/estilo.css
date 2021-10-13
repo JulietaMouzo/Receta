@@ -1,15 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+@font-face {
+              font-family: "chino";
+              src: url("../Fuentes/ITCKRIST.TTF");
+            }
+
 body  {background-color: #FEF29A;
-      font-family: sans-serif;
-      font-size: 150%;
+      font-family: 'Dosis', sans-serif;
+      font-size: 1.8rem;
        margin: 30px;}
 
 header {background-color: #C620FF6E;
-        color: white;}
+        color: white;
+        font-family: "chino";
+        font-size: 1.2rem;}
 
-.Por {font-size: 65%;}
+.Por {font-size: 0.8em;}
 
 #TituloPrincipal {text-align: center;
-text-decoration: none;}
+                  text-decoration: none;}
 
 nav {background-color: white;
     text-decoration-color: black;
@@ -17,97 +26,98 @@ nav {background-color: white;
     text-align: center;}
 
 .contacto:hover {background-color: pink;
-                font-size: 40px;
+                font-size: 1.5em;
                 font-family: fantasy;}
 
-section {width: 70%;
-display: inline;}
+section {width: 70vw;
+        display: inline;}
 
-.ImagenGrande {width: 600px;
-               height: 350px;
+.ImagenGrande {width: 45vw;
+               height: 53vh;
                position: relative;
-               left: 300px;
-               margin-top: 20px;
+               left: 20vw;
+               margin-top: 10px;
                clear: right;}
 
 .contenedor2 {background-color: #FEF29A;
-              width: 100%;
-              height: 300px;
+              width: 95vw;
+              height: 45vh;
               margin-top: 50px;}
 
 .mapa {float: left;
-       width: 30%;
+       width: 30vw;
        margin: 5px;
        display: inline;}
 
 
 .Intro {color: black;
-        font-size: 90%;
-        width: 60%;
+        font-size: 0.8em;
+        width: 55vw;
         float: right;
         display: inline;}
 
 
-.Musica {font-size: 60%;
+.Musica {font-size: 0.6em;
          background: #F8EF78;
          color: black;
          position: relative;
          display: inline-block;}
 
 
-.marcha {font-size: 75%;}
+.marcha {font-size: 0.9em;}
 
 .Titulo {text-decoration: underline;
          clear: both;}
 
 .contenedor1 {background-color: #FEF29A;
-              width: 100%;
-              height: 450px;}
+              width: 95vw;
+              height: 50vh;
+              font-size: 1.1rem;}
 
 
 .ingredientes {background-color: #f6adc6;
-                    width: 48%;
-                    height: 100%;
-                    display: inline;
-                    float: left;
-                    font-size: 80%;
-                    margin: 10px;}
+               width: 45.5vw;
+               height: 68vh;
+               display: inline;
+               float: left;
+               margin: 10px;
+               overflow: auto;}
 
 
 .preparacion {background-color: #f6adc6;
-               width: 48%;
-               height: 100%;
-               font-size: 80%;
-             display: inline;
-             float: right;
-             margin: 10px;}
+              width: 45.5vw;
+              height: 68vh;
+              display: inline;
+              float: right;
+              margin: 10px;
+              overflow: auto;}
 
 
 .contenedor {background-color: #FEF29A;
-             width: 100%;
-             height: 700px;;
-             font-size: 80%;
+             width: 95vw;
+             height: 50vh;
+             font-size: 1.1rem;
              }
 
 .paches2 {text-align: }
 
 .preparacionpaches {background-color: #f6adc6;
-                    width: 48%;
-                    height: 93%;
+                    width: 45.5vw;
+                    height: 98.5vh;
                     display: inline;
                     float: left;
                     margin: 10px;}
 
 .consejos {background-color: #f6adc6;
-          width: 48%;
-          height: 30%;
+          width: 45.5vw;
+          height: 31vh;
           display: inline;
           float: right;
-           margin: 10px;}
+          margin: 10px;}
 
 .Video {background-color: #f6adc6;
-        width: 48%;
-        height: 60%;
+        width: 45.5vw;
+        height: 64.5vh;
         display: inline;
         float: right;
         margin: 10px;}
@@ -115,29 +125,30 @@ display: inline;}
 .ImagenMediana {width: 400px; height: 350px;}
 
 .iconowpp {position: fixed;
-           width: 50px; height: 50px;
+           width: 5vw; height: 10vh;
            top: 85%; right: 1%;}
 
 
 aside {background-color: pink;
        display: inline-block;
-       width: 15%;
+       width: 15vw;
        float: right;
        padding: 50px;
-       margin-right: 5px; margin-top: 145px;
-       font-size: 80%;}
+       margin-right: 5px; margin-top: 155px;
+       font-size: 0.7em;
+       }
 
 
 footer {float: inherit; clear: inherit;}
-       .iconoig {width: 45px;}
-       .iconotw {width: 45px;}
+       .iconoig {width: 4vw;}
+       .iconotw {width: 4vw;}
 
 
-.iconowpp:hover {width: 100px;
-                 height: 100px;}
+.iconowpp:hover {width: 6vw;
+                height: 12vh;}
 
-.iconoig:hover {width: 100px;
-                height: 100px;}
+.iconoig:hover {width: 6vw;
+               height: 12vh;}
 
-.iconotw:hover {width: 100px;
-                height: 100px;}
+.iconotw:hover {width: 6vw;
+                height: 12vh;}
